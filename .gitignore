@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Data files (contains sensitive/local data)
+data/
+
+# Playwright profile (contains login sessions)
+.playwright-profile/
+
+# OS files
+.DS_Store
+
+# Environment variables
+.env
+.env.local

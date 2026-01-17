@@ -1,0 +1,29 @@
+{
+  "name": "stgen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "scrape": "tsx scripts/run.ts",
+    "export": "tsx scripts/export.ts",
+    "stats": "tsx scripts/export.ts --stats",
+    "escow": "tsx src/cli/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.26.1",
+  "dependencies": {
+    "@inquirer/prompts": "^8.2.0",
+    "gunshi": "^0.27.5",
+    "picocolors": "^1.1.1",
+    "playwright": "^1.57.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
